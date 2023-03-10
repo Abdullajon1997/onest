@@ -25,6 +25,7 @@ function Header() {
     } 
     else {
       rec.current.style.border='6px solid transparent '
+
       setIsVisible(false);
     }
   };
