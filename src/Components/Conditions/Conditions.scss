@@ -1,0 +1,59 @@
+.Conditions__inner {
+    height: 563px;
+    margin-bottom: 154px;
+
+  &__h2 {
+    font-family: "Onest";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #2c3332;
+  }
+  &__list {
+    background: #eeeeee;
+    border-radius: 12px;
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-bottom: 90px;
+
+    &__item {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin-bottom: 30px;
+      &__div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-right: 20px;
+
+      }
+      &__h2 {
+        margin: 0;
+        padding: 0;
+        padding-left: 8px;
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+        width: 125px;
+      }
+      &__p {
+        margin: 0;
+        padding: 0;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #000000;
+        width: 397px;
+      }
+    }
+  }
+}

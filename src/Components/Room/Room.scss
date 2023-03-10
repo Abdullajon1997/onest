@@ -1,0 +1,90 @@
+.Room__inner {
+  background: #ffffff;
+  border-radius: 12px;
+  padding-left: 25px;
+  margin-bottom: 5px;
+  transition: all 1s;
+  overflow: hidden;
+  &__div {
+    border: 1px solid #eeeeee;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    margin-bottom: 18px;
+  }
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 19px;
+    padding-top: 24px;
+    &__item {
+      width: 40px;
+      height: 40px;
+      background: #eeeeee;
+      border-radius: 8px;
+      text-align: center;
+      line-height: 40px;
+    }
+  }
+  &__lists {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 20px;
+    &__items:nth-child(1) {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+      opacity: 0.6;
+      margin-right: 17px;
+    }
+    &__items:nth-child(2) {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+      margin-right: 16px;
+    }
+    &__items:nth-child(3) {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+      opacity: 0.6;
+      margin-right: 16px;
+    }
+    &__items:nth-child(4) {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+      opacity: 0.6;
+      margin-right: 16px;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.information__inner {
+  &__h2 {
+    font-family: "Onest";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #2c3332;
+  }
+  &__lists { 
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    &__items {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      opacity: 0.4;
+    padding-right: 74px;
+    padding-bottom: 20px;
+    width: 106px;
+
+      &__list {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        &__item {
+            font-family: 'Onest';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 23px;      
+            color: #111;
+            padding-top: 2px;
+        }
+      }
+    }
+  }
+}

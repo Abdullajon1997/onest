@@ -1,0 +1,96 @@
+.InformationAccaunt__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  &__left {
+    margin-top: 40px;
+    &__div {
+      border: 41px solid #000000;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      margin-bottom: 19px;
+
+    }
+    &__p {
+      margin: 0;
+      padding: 0;
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 21px;
+      color: #ffffff;
+      background: #7000ff;
+      border-radius: 4px;
+      padding-top: 20px;
+      padding-left: 24px;
+      padding-bottom: 17px;
+      padding-right: 128px;
+      width: 199px;
+    }
+    
+    &__list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      &__item:nth-child(1)::before{
+        content: " ";
+        color: #BD00FF;
+        font-weight: bold;
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+        background: #BD00FF;
+        border-radius: 50%;
+        margin-right: 4px;
+      }
+      &__item:nth-child(2)::before{
+        content: " ";
+        color: #27BA24;
+        font-weight: bold;
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+        background: #27BA24;
+        border-radius: 50%;
+        margin-right: 4px;
+      }
+      &__item:nth-child(3)::before{
+        content: " ";
+        color: #7000ff;
+        font-weight: bold;
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+        background: #7000FF;
+        border-radius: 50%;
+        margin-right: 4px;
+      }
+      &__item:nth-child(4)::before{
+        content: " ";
+        color: #FF0000;
+        font-weight: bold;
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+        background: #FF0000;
+        border-radius: 50%;
+        margin-right: 4px;
+      }
+
+      &__item {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+        margin-bottom: 14px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+    }
+  }
+}

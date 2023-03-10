@@ -1,0 +1,52 @@
+.MenuLeft__inner {
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 38px;
+    border: 1px solid #eeee;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    margin-right: 40px;
+
+    &__item {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 19px;
+      color: #000e23;
+      flex: none;
+      order: 1;
+      flex-grow: 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 5.67px;
+      text-align: center;
+    }
+    &__item:nth-child(1) {
+      margin-bottom: 38px;
+      color: #7000ff;
+      padding: 16px 130px 16px 22.67px;
+      background: rgba(112, 0, 255, 0.1);
+    }
+    &__item:nth-child(2) {
+      margin-bottom: 38px;
+      padding: 16px 130px 16px 22.67px;
+    }
+    &__item:nth-child(3) {
+      padding: 16px 130px 16px 22.67px;
+      margin-bottom: 38px;
+    }
+    &__item:nth-child(4) {
+      padding: 16px 130px 16px 22.67px;
+      margin-bottom: 38px;
+    }
+    &__item:nth-child(5) {
+      padding: 16px 130px 16px 22.67px;
+      margin-bottom: 308px;
+    }
+  }
+}

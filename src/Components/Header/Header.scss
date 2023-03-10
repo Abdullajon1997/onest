@@ -1,0 +1,175 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  &__div {
+    border: 1px solid #eeee;
+    padding: 10px 17px;
+    margin-right: 17px;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    &__link{
+      display: block;
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+    }
+  }
+  &__inner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+    &__div{
+      width: 978px;
+      position: absolute;
+      left: 0;
+      top: -9px;
+    }
+    &__logo {
+      display: block;
+      cursor: pointer;
+    }
+    &__form {
+      &__labbel:focus {
+       
+        outline: none;
+      }
+      &__labbel {
+        position: relative;
+        width: 100%;
+        height: 48px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: 0.9s all;
+        background: #ffffff;
+        border-radius: 8px;
+        gap: 15px;
+        &__img {
+          display: block;
+          margin-left: 10px;
+          width: 18px;
+          height: 18px;
+        }
+        &__input {
+          width: 100%;
+          background: #ffffff;
+          border-radius: 0;
+          border: none;
+          
+        }
+        &__input:focus {
+          outline: none;
+        }
+      }
+    }
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      &__item {
+        text-decoration: none;
+        cursor: pointer;
+        &__link {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 142%;
+          color: #ffffff;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          gap: 5px;
+        }
+        &__links {
+          font-family: "Onest";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 150%;
+          color: #121212;
+          text-decoration: none;
+        }
+        &__plus {
+          width: 16px;
+          height: 16px;
+          display: block;
+        }
+      }
+      &__item:hover {
+        text-decoration: underline;
+      }
+      &__item:nth-child(1) {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #121212;
+        opacity: 0.4;
+        margin-right: 20px;
+      }
+      &__item:nth-child(2) {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #121212;
+        opacity: 0.4;
+        margin-right: 18px;
+      }
+      &__item:nth-child(3) {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 8.98px;
+        margin-right: 21px;
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #121212;
+      }
+      &__item:nth-child(4) {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 8px;
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color: #121212;
+        margin-right: 34px;
+      }
+      &__item:nth-child(5) {
+        display: flex;
+        align-items: center;
+        background: #7000ff;
+        border-radius: 5px;
+        padding: 12px;
+        margin-right: 5px;
+      }
+      &__item:nth-child(6) {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 6.33px;
+        padding: 13px;
+        background: #eeeeee;
+        border-radius: 5px;
+      }
+    }
+  }
+}

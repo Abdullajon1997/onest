@@ -1,0 +1,72 @@
+.Поиск {
+  &__inner {
+    margin-top: 0px;
+    &__h2 {
+      width: 21px;
+      height: 15px;
+      padding: 4px 6px;
+      position: absolute;
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      text-transform: capitalize;
+      color: #000000;
+      background: #fff500;
+      border-radius: 6px;
+    }
+    &__img {
+      display: block;
+      margin-bottom: 10px;
+      position: relative;
+      z-index: -1;
+      top: 0;
+      left: -7px;
+    }
+    &__card {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 190px;
+      margin-bottom: 5px;
+      &__p1 {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        color: #111111;
+        margin: 0;
+        padding: 0;
+      }
+      &__p2 {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        color: #111111;
+      }
+    }
+    &__span {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      color: #111111;
+    }
+  }
+}

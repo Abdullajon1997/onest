@@ -1,0 +1,34 @@
+.Marquee__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 60px;
+}
+.anime__two{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+    gap: 6px;
+    &__img{
+        width: 351px;
+        height: 247px;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+}
+.anime__one{
+    &__img{
+        width: 797px;
+        height: 500px;
+        border: radius 12px;
+        cursor: pointer;
+    }
+}
+.overlay::after{
+    display: none;
+}
+.overlay::before{
+    display: none;
+}

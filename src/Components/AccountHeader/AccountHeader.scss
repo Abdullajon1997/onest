@@ -1,0 +1,76 @@
+.AccountHeader__inner {
+  background: #f4f4f4;
+
+  &__name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: self-end;
+    background: #f4f4f4;
+    padding: 24px 0 24px 0;
+    &__img{
+      width: 12px;
+      height: 18px;
+      display: block;
+    }
+    &__list {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 42px;
+      list-style: none;
+      &__item:nth-child(5){
+        color: #7000FF;
+      }
+      &__item {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        color: #000000;
+
+      }
+    }
+    &__out {
+      display: flex;
+      justify-content: flex-start;
+      align-items: self-start;
+      gap: 16px;
+      margin-right: 94.67px;
+      &__pictures {
+        width: 82px;
+        height: 82px;
+        background: #7000ff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    &__img {
+      display: block;
+    }
+    &__h2 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+    }
+    &__p {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      color: #000000;
+      opacity: 0.5;
+    }
+  }
+}

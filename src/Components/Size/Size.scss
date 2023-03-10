@@ -1,0 +1,97 @@
+.Size__inner {
+  background-color: #ffff;
+  border-radius: 12px;
+  margin-bottom: 5px;
+  transition: all 1s;
+  overflow: hidden;
+  &__div{
+    border: 1px solid #EEE;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 18px;
+
+  }
+  &__list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 24px;
+    padding-left: 25px;
+    margin-bottom: 19px;
+    gap: 5px;
+    &__item {
+        width: 81px;
+        height: 40px;
+        background: #EEEEEE;
+        border-radius: 8px;
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 40px;
+        text-align: center;
+        color: #000000;
+    }
+  }
+  &__lists {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    &__items:nth-child(1) {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+      opacity: 0.6;
+      margin-right: 17px;
+    }
+    &__items:nth-child(2) {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+      margin-right: 16px;
+    }
+    &__items:nth-child(3) {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+      opacity: 0.6;
+      margin-right: 16px;
+    }
+    &__items:nth-child(4) {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+      opacity: 0.6;
+      margin-right: 16px;
+    }
+  }
+}

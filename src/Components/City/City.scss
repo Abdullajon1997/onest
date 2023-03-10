@@ -1,0 +1,39 @@
+.City {
+  &__inner {
+    max-width: 740px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    border-radius: 16px;
+    &__one {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px 13px 0px;
+      width: 152px;
+      height: 52px;
+      background: #7000ff;
+      border-radius: 12px;
+      &__img {
+        display: block;
+        width: 40px;
+        height: 40px;
+      }
+      &__h2 {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+      }
+      &__images {
+        width: 20px;
+        height: 30px;
+      }
+    }
+  }
+}

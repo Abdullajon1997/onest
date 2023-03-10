@@ -1,0 +1,66 @@
+.City {
+  &__out {
+    background: #ffffff;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    transition: all 1s;
+    overflow: hidden;
+    &__list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      padding-top: 26px;
+      padding-right: 54px;
+      cursor: pointer;
+      &__item {
+        margin-left: 30px;
+        margin-bottom: 15px;
+      }
+    }
+    &__div {
+      border: 1px solid #EEEEEE;
+      margin-bottom: 18px;
+    }
+    &__lists {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      list-style: none;
+      gap: 16px;
+      margin-left: 25px;
+      padding-bottom: 20px;
+
+      &__items {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        opacity: 0.4;
+        cursor: pointer;
+      }
+      &__items:nth-child(2) {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        opacity: 1;
+        cursor: pointer;
+      }
+    }
+  }
+}

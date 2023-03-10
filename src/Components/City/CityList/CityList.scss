@@ -1,0 +1,28 @@
+.CityList__list {
+      width: 583px;
+      height: 52px;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+      background: #ffffff;
+      padding: 0px 28px 0px 12.67px;
+      border-radius: 12px;
+      transition: all 2s;
+      overflow: hidden;
+      &__item {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        color: #121212;
+        gap: 4.67px;
+        cursor: pointer;
+      }
+}

@@ -1,0 +1,59 @@
+.mold {
+  &__inner {
+    margin-bottom: 23px;
+    margin-top: 23px;
+    &__address {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      &__list {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 23px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        &__item {
+          font-family: "Onest";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18px;
+          color: #000000;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 8px;
+        }
+      }
+      &__left {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+        gap: 16px;
+        &__h2 {
+          font-family: "Onest";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 26px;
+          color: #111111;
+        }
+        &__img {
+          width: 58px;
+          height: 58px;
+        }
+        &__images {
+          width: 21px;
+          height: 21px;
+          position: absolute;
+          z-index: 1;
+          top: 19px;
+          left: 18px;
+        }
+      }
+    }
+  }
+}

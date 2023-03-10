@@ -1,0 +1,28 @@
+.AllList__list {
+  margin: 0;
+  padding: 0;
+  width: 583px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 0px 41px 0px 20px;
+  height: 52px;
+  transition: all 6s;
+  overflow: hidden;
+  &__item {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #121212;
+    cursor: pointer;
+  }
+}

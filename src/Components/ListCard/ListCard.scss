@@ -1,0 +1,104 @@
+.ListCard__inner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 22px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E3DFE9;
+  &__img {
+    width: 282px;
+    height: 184px;
+    display: block;
+  }
+  &__in {
+    &__h2 {
+        margin: 0;
+        padding: 0;
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 21px;
+        color: #111111;
+        margin-bottom: 10px;
+    }
+    &__p {
+        margin: 0;
+        padding: 0;
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+        color: #000000;
+        opacity: 0.5;
+        width: 536px;
+        height: 37px;
+        margin-bottom: 10px;
+    }
+    &__activate {
+        width: 160px;
+        height: 32px;
+        margin: 0;
+        padding: 0;
+        background: #d6d0dc;
+        border-radius: 3px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 6.45px;
+        margin-bottom: 25px;
+      &__span {
+        margin: 0;
+        padding: 0;
+        display: block;
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: #7000ff;
+      }
+      &__svg{
+        margin-left: 11px;
+      }
+    }
+    &__div{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 24px;
+        &__eye{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 5px;
+            &__span{
+                display: block;
+                font-family: 'Onest';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+                color: #000000;
+            }
+        }
+        &__message{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 8px;
+            &__span{
+                display: block;
+                font-family: 'Onest';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+                color: #000000;
+            }
+        }
+    }
+  }
+}

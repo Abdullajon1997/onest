@@ -1,0 +1,202 @@
+.Confirmation__inner {
+    position: absolute;
+    background-color: #ffffff;
+    display: flex;
+    left: 25%;
+    z-index: 10;
+    top: 15%;
+    &__left {
+      width: 380px;
+      height: 640px;
+      background: #7000ff;
+      padding-left: 60px;
+      padding-top: 60px;
+      &__div {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+      &__p {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15.5082px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        margin: 0;
+        padding: 0;
+        margin-left: 25.38px;
+      }
+      &__title {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56.3934px;
+        line-height: 72px;
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        margin: 0;
+        padding: 0;
+        margin-left: 21.15px;
+      }
+      &__h2 {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 41px;
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 66.41px;
+      }
+      &__img {
+        display: block;
+        width: 84.59px;
+        height: 84.59px;
+      }
+    }
+    &__right {
+      width: 428px;
+      background-color: #fff;
+      padding-top: 60px;
+      padding-left: 72px;
+      &__h2 {
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 41px;
+        color: #000000;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 69px;
+      }
+      &__div{
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 20px;
+          margin-left: 110px;
+          &__img{
+              display: block;
+              width: 40px;
+              height: 40px;
+          }
+      }
+      &__p{
+          font-family: 'Onest';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 18px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          color: #000000;
+          margin: 0;
+          padding: 0;
+          margin-left: 45px;
+          margin-bottom: 40px;
+          cursor: pointer;
+          &__span{
+            margin-left: 5px;
+              color: #7000FF;
+          }
+      }
+      &__form {
+        &__list{
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          gap: 5px;
+          font-family: 'Onest';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 15px;
+          display: flex;
+          align-items: center;
+          color: #000000;
+          margin-bottom: 92px;
+        }
+        &__btn {
+          width: 320px;
+          height: 52px;
+          background: #7000ff;
+          border-radius: 4px;
+          font-family: "Onest";
+          font-style: normal;
+          font-weight: 800;
+          font-size: 18px;
+          line-height: 23px;
+          text-align: center;
+          color: #ffffff;
+          margin-top: 44px;
+          margin-bottom: 40px;
+        }
+        &__label {
+          display: block;
+          font-family: "Onest";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 15px;
+          color: #000000;
+          display: block;
+          margin-bottom: 20px;
+          border: none;
+          background-color: #ffffff;
+          outline: none;
+          &__input {
+            width: 177px;
+            height: 18px;
+            margin-top: 5px;
+            font-family: "Onest";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            display: flex;
+            align-items: center;
+            color: #000000;
+            border: none;
+            border-bottom: 1px solid #cccc;
+            width: 320px;
+            height: 52px;
+            outline: none;
+          }
+          &__input::placeholder {
+            padding-left: 17px;
+            display: block;
+            font-family: "Onest";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            display: flex;
+            align-items: center;
+            color: #000000;
+            opacity: 0.2;
+          }
+        }
+      }
+    }
+  }
+  .Confirmation__out{
+    z-index: 100;
+    background-color: hsl(255, 100%, 100%,0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }

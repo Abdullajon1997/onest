@@ -1,0 +1,95 @@
+.Material__inner {
+  background-color: #ffff;
+  margin-bottom: 5px;
+  border-radius: 12px;
+  transition: all 1s;
+  overflow: hidden;
+  &__div {
+    border: 1px solid #eeee;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin-bottom: 18px;
+  }
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 25px;
+    margin-bottom: 19px;
+    padding-top: 24px;
+    gap: 5px;
+    &__item {
+      width: 112px;
+      height: 40px;
+      line-height: 40px;
+      background-color: #eeee;
+      text-align: center;
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      border-radius: 8px;
+    }
+  }
+  &__lists {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    &__items:nth-child(1) {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+      opacity: 0.6;
+      margin-right: 17px;
+    }
+    &__items:nth-child(2) {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+      margin-right: 16px;
+    }
+    &__items:nth-child(3) {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+      opacity: 0.6;
+      margin-right: 16px;
+    }
+    &__items:nth-child(4) {
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+      opacity: 0.6;
+      margin-right: 16px;
+    }
+  }
+}

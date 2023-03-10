@@ -1,0 +1,88 @@
+.InformationAccaunt__inner {
+    margin-top: 48px;
+    margin-bottom: 190px;
+    margin-right: 382px;
+    padding-left: 40px;
+    &__h2 {
+      margin: 0;
+      padding: 0;
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 22px;
+      line-height: 28px;
+      color: #000000;
+      margin-bottom: 8px;
+    }
+    &__p {
+      margin: 0;
+      padding: 0;
+      font-family: "Onest";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      color: #000000;
+      margin-bottom: 45px;
+    }
+    &__form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      width: 700px;
+      margin-left: 30px;
+      &__btn {
+        background: #7000ff;
+        border-radius: 4px;
+        width: 320px;
+        height: 52px;
+        font-family: "Onest";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 23px;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 137px;
+      }
+      &__label {
+        &__h2 {
+          margin: 0;
+          padding: 0;
+          font-family: "Onest";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 15px;
+          display: flex;
+          align-items: center;
+          color: #000000;
+          margin-bottom: 5px;
+        }
+        &__input::placeholder {
+          font-family: "Onest";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18px;
+          display: flex;
+          align-items: center;
+          color: #000000;
+          opacity: 0.2;
+        }
+        &__input {
+          width: 320px;
+          height: 52px;
+          background: #ffffff;
+          border-bottom: 1px solid #cccccc;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
