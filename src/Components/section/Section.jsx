@@ -3,64 +3,64 @@ import Размещение from '../section/Размещение/Размеще
 
 const data = [
   {
-    id:"kjfdh87y9r8w7e89403y98ew"
+    id:"1"
   },
   {
-    id:"kjfdh87y9r8w7489403y98w3"
+    id:"2"
   },
   {
-    id:"4povdiuf09rwerwerre"
+    id:"3"
   },
   {
-    id:"wre9r8e90wr8iew09urwe09"
+    id:"4"
   },
   {
-    id:"foidsu398urew09j09w"
+    id:"5"
   },
   {
-    id:"dfoiuv0-orwekf-"
+    id:"6"
   },
   {
-    id:"fsd080we9r0-ew9r-0"
+    id:"7"
   },
   {
-    id:"dflkjdsiofjdsp-=f0i9ujokp0"
+    id:"8"
   },
   {
-    id:"kjfdh87y9r8w7e8fe403y98ew"
+    id:"9"
   },
   {
-    id:"kjfdh87y9o8f7e89403y98ew"
+    id:"10"
   },
   {
-    id:"kjfdh87y9r8w7e855403y98ew"
+    id:"11"
   },
   {
-    id:"kjfdh87ro9r8w7e89403y98ew"
+    id:"12"
   },
   {
-    id:"kjfdh87yrerer8w7e89403y98ew"
+    id:"13"
   },
   {
-    id:"kjfdh87yre-pw7e89403y98ew"
+    id:"14"
   },
   {
-    id:"kjfdh87y9088w7e89403y98ew"
+    id:"15"
   },
   {
-    id:"kjfdh87y9r8w7o9ke99403y98ew"
+    id:"16"
   },
   {
-    id:"kjfdh8ijifjinqicn403y98ew"
+    id:"17"
   },
   {
-    id:"kjfdh87y9r8wdvslknkwnvlkan99403y98ew"
+    id:"18"
   },
   {
-    id:"kjfdhlbektmpbtmke99403y98ew"
+    id:"19"
   },
   {
-    id:"kjgvrwgwe7y9r8w7o9ke99403y98ew"
+    id:"20"
   }
 ]
 

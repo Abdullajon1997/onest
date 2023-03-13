@@ -62,8 +62,9 @@ code {
 }
 .City__all {
   position: fixed;
-  left: 29%;
   bottom: 10%;
+  transform: rotateY(10%);
+  transform: translateX(70%);
   width: 740px;
   border: 5px solid rgba(0, 0, 0, 0.2);
   background: rgba(0, 0, 0, 0.2);
