@@ -10,10 +10,9 @@ function City({ handleCity, priceVisible,
   handleRoom, handleSize, handleRepair,
   handleMaterial,isCityActive,isCityActive1,
   isCityActive2,isCityActive3,
-  isCityActive4,isCityActive5 }) {
+  isCityActive4,isCityActive5, isburgerMenu,setIsburgerMenu }) {
 
     const [isApartment, setIsApartment] = useState(false);
-    const [isburgerMenu, setIsburgerMenu] = useState("");
 
     const Apartment =()=>{
       setIsApartment(!isApartment)

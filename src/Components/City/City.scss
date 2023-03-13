@@ -1,6 +1,6 @@
 .City {
   &__inner {
-    max-width: 740px;
+    width: 740px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,6 +19,7 @@
         display: block;
         width: 40px;
         height: 40px;
+        margin-right: 4px;
       }
       &__h2 {
         font-family: "Onest";

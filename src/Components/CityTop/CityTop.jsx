@@ -34,12 +34,6 @@ function CityTop() {
     setIsCityActive3(false);
     setIsCityActive4(false);
     setIsCityActive5(false);
-
-
-
-
-
-
     if (isPrice) {
       setIsPrice(!isPrice);
 
@@ -65,12 +59,6 @@ function CityTop() {
     setIsCityActive3(false);
     setIsCityActive4(false);
     setIsCityActive5(false);
-
-
-
-
-
-
     setIsPrice(!isPrice);
     if (isVisible) {
       setIsVisible(!isVisible);
@@ -96,10 +84,6 @@ function CityTop() {
     setIsCityActive3(false);
     setIsCityActive4(false);
     setIsCityActive5(false);
-
-
-
-
     setIsRoom(!isRoom)
     if (isVisible) {
       setIsVisible(!isVisible);
@@ -125,11 +109,6 @@ function CityTop() {
     setIsCityActive3(!isCityActive3);
     setIsCityActive4(false);
     setIsCityActive5(false);
-
-
-
-
-
     setIsSize(!isSize)
     if (isVisible) {
       setIsVisible(!isVisible);
@@ -147,8 +126,6 @@ function CityTop() {
       setIsMaterial(!isMaterial);
     }
   }
-
-
   const handleRepair =()=>{
     setIsCityActive(false);
     setIsCityActive1(false);
@@ -156,10 +133,6 @@ function CityTop() {
     setIsCityActive3(false);
     setIsCityActive4(!isCityActive4);
     setIsCityActive5(false);
-
-
-
-
     setIsRepair(!isRepair)
     if (isVisible) {
       setIsVisible(!isVisible);
@@ -177,7 +150,6 @@ function CityTop() {
       setIsMaterial(!isMaterial);
     }
   }
-
   const handleMaterial =()=>{
     setIsCityActive(false);
     setIsCityActive1(false);
@@ -185,10 +157,6 @@ function CityTop() {
     setIsCityActive3(false);
     setIsCityActive4(false);
     setIsCityActive5(!isCityActive5);
-
-
-
-
     setIsMaterial(!isMaterial)
     if (isVisible) {
       setIsVisible(!isVisible);
@@ -206,9 +174,11 @@ function CityTop() {
       setIsRepair(!isRepair);
     }
   }
+  const [isburgerMenu, setIsburgerMenu] = useState("");
+
 
   return (
-    <div className="City__all">
+    <div className="City__all" style={{width: isburgerMenu ? "742px " : "178px"}}>
       <div
         div
         className="City__out"
@@ -242,7 +212,7 @@ function CityTop() {
       <Size isSize={isSize}/>
       <Repair isRepair={isRepair}/>
       <Material isMaterial={isMaterial}/>
-      <City handleCity={handleCity} priceVisible={priceVisible} handleRoom={handleRoom} handleSize={handleSize} handleRepair={handleRepair} handleMaterial={handleMaterial} isCityActive={isCityActive} isCityActive1={isCityActive1} isCityActive2={isCityActive2} isCityActive3={isCityActive3} isCityActive4={isCityActive4} isCityActive5={isCityActive5} />      
+      <City handleCity={handleCity} priceVisible={priceVisible} handleRoom={handleRoom} handleSize={handleSize} handleRepair={handleRepair} handleMaterial={handleMaterial} isCityActive={isCityActive} isCityActive1={isCityActive1} isCityActive2={isCityActive2} isCityActive3={isCityActive3} isCityActive4={isCityActive4} isCityActive5={isCityActive5} isburgerMenu={isburgerMenu} setIsburgerMenu={setIsburgerMenu}/>      
     </div>
   );
 }

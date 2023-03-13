@@ -10,7 +10,8 @@ function CityList({
   handleRepair, handleMaterial, 
   isApartment, Apartment, isburgerMenu}) {
   return (
-    <ul className="CityList__list" style={{display: isApartment ? "flex" : "none"}} >
+    <div style={{display: isburgerMenu ? "block" : "none"}}>
+      <ul className="CityList__list" style={{display: isApartment ? "flex" : "none"}} >
           <li className="CityList__list__item" onClick={Apartment}>
             <svg
               width={12}
@@ -41,6 +42,7 @@ function CityList({
           <li className={`${isCityActive5 ? "City__inner__list__item__active" : "CityList__list__item"}`} onClick={() => handleMaterial()}>
             Материал</li>
         </ul>
+    </div>
   )
 }
 
