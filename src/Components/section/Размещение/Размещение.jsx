@@ -1,10 +1,15 @@
 import React from "react";
 import "./Размещение.scss";
 import uy from "../../../images/uy.png";
+import { useNavigate } from "react-router-dom";
 
-function Размещение() {
+function Размещение({data}) {
+  const navigate = useNavigate()
   return (
-    <section className="Размещение">
+    <>
+   {  
+    data.map((e)=>(
+      <section className="Размещение" onClick={()=>navigate(`/Second/${e?.id}`)} >
       <div className="Размещение__inner">
         <span className="Размещение__inner__komfort">Комфорт</span>
         <img className="Размещение__inner__img" src={uy} alt="дома" />
@@ -53,6 +58,9 @@ function Размещение() {
         <span className="Размещение__inner__span">$63.000</span>
       </div>
     </section>
+   ))
+  }
+    </>
   );
 }
 

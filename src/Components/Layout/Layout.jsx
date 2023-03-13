@@ -9,13 +9,7 @@ function Layout({ children }) {
   return (
     <>
       <Header />
-      {/* Birinchi pages */}
-      {/* <Home/> */}
         {children}
-
-
-      {/* ikkinchi pages */}
-      {/* <Second/> */}
       <Footer />
     </>
   );

@@ -1,6 +1,5 @@
 import React from 'react'
 import './CityList.scss'
-import { useState } from 'react'
 
 function CityList({
   isCityActive, isCityActive1,
@@ -9,9 +8,9 @@ function CityList({
   handleCity, priceVisible,
   handleRoom, handleSize, 
   handleRepair, handleMaterial, 
-  isApartment, Apartment}) {
+  isApartment, Apartment, isburgerMenu}) {
   return (
-    <ul className="CityList__list" style={{display: isApartment ? "flex" : "none"}}>
+    <ul className="CityList__list" style={{display: isApartment ? "flex" : "none"}} >
           <li className="CityList__list__item" onClick={Apartment}>
             <svg
               width={12}

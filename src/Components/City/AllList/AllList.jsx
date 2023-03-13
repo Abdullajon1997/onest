@@ -1,7 +1,7 @@
 import React from 'react'
 import './AllList.scss'
 
-function AllList({Apartment, isApartment}) {
+function AllList({Apartment, isApartment }) {
   return (
         <ul className='AllList__list' style={{display: isApartment ? "none" : "flex" }}>
             <li className='AllList__list__item'>Все</li>
