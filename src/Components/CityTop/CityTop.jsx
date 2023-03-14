@@ -178,7 +178,7 @@ function CityTop() {
 
 
   return (
-    <div className="City__all" style={{width: isburgerMenu ? "742px " : "178px"}}>
+    <div className="City__all" style={{width: isburgerMenu ? "747px " : "178px"}}>
       <div
         div
         className="City__out"
