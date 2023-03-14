@@ -178,7 +178,17 @@ function CityTop() {
 
 
   return (
-    <div className="City__all" style={{width: isburgerMenu ? "747px " : "178px"}}>
+    <div className="City__all" style={{width: isburgerMenu ? "747px " : "178px"}} onMouseEnter={(e)=>{
+      setIsCityActive(false)
+      setIsCityActive1(false)
+      setIsCityActive2(false)
+      setIsCityActive3(false)
+      setIsCityActive4(false)
+      setIsCityActive5(false)
+
+
+
+    }} >
       <div
         div
         className="City__out"

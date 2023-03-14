@@ -6,7 +6,6 @@ import Googles from "../../images/Googles.png";
 import Registration from '../Registration/Registration'
 
 function ToEnter({ access, setAccess, setIsConfirmation}) {
-  console.log(access);
   
   const [isRegistion, setIsRegistion] = useState(false)
   const handleisRegistion =()=>{
